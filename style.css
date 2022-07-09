@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width:22%;
+    height: 68px;
+    cursor:pointer;
+    padding-left: 60px;
+    
+
+}
+a{
+    text-decoration: none;
+    color:#ababab;
+}
+a:hover{
+    color:#00b39b;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width:251.6px;
+    padding-top: 19.95px;
+    height:69.9px;
+    margin-right: 60px;
+    max-width: 100%;
+
+}
+
+
+li{
+    list-style-type: none;
+}
+#about{
+    color: #00b39b;
+}
+.lead-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7.5%;
+    width: 7.5%;
+}
+.lead-section{
+
+    
+    margin-top: 33px;
+    margin-bottom: 60px;
+    margin-left: 23px;
+    margin-right: 23px;
+    padding: 0 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 34px 0 ;
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-weight: 300;
+    font-family: Work Sans,Arial,sans-serif;
+    letter-spacing: -.3px;
+}
+.para {
+    display: flex;
+    justify-content: center;
+    margin: 0.8em 0;
+    
+}
+p{
+    width: 30%;
+    line-height: 1.75;
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+}
+#p2{
+    margin-left: 10px;
+}
+
+
+.item1{
+    width:331px;
+    height: 345px;
+    padding: 10px;
+    float:left;
+    background-color:#00b39b;
+    border-radius: 10px;
+
+}
+
+.item2{
+    background-color: #3d83df;
+    height: 345px;
+    width: 331px;
+    padding: 10px;
+    float: left;
+    border-radius: 10px;
+}
+.item3{
+    background-color: #1b2734;
+    height: 345px;
+    width: 331px;
+    padding: 10px;
+    float: left;
+    border-radius: 10px;   
+}
+
+.items{
+    
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.text h1 {
+    color: white; 
+    margin-left: 30px;
+    font-weight: 100;
+}
+.text  {
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.text img {
+     width:30%;
+     height:auto;
+     margin-left: -30px;
+     margin-top:0px;
+}
+
+.text h2{
+    margin-left: 30px;
+    line-height: 1.2em;
+    font-weight: 100;
+}
+.style-select select {
+    color: white;
+    background:none;
+    border:0;
+    letter-spacing: 0.04em;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+.brand h1{
+    text-align: left;
+    margin-left: 250px;
+    font-size: 1.6em;
+
+}
+.brand{
+    display: flex;
+}
+.one{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.brands_logos{
+    width: 20%;
+}
+.one li svg {
+    width:80%
+}
+.one li a:hover{
+    color:#00b39b;
+}
+.stats{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+   
+    height: 30%;
+    position: relative;
+}
+.stats header img{
+    width: 500px;
+    height: 500px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+
+.box1{
+    height:200px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+
+.box2{
+    height:200px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+
+.box3{
+    height:200px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    right: 220px;
+}
+.box4{
+    height:200px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    top: 260px ;
+    right: 520px;
+}
+.office-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+
+.office-slider{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.office a figure img {
+    width: 309px;
+    height: 209px;
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+
+}
+.btn :hover{
+    background-color:blue;
+}
+.office__desc {
+    width: 300px;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-us__header{
+    text-align: center;
+    margin-left: 500px;
+}
+
+.join-us__header a {
+    margin-left: 100px;
+}
